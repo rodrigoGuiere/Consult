@@ -4,30 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Testes</title>
   </head>
   <body>
     <div id="home" class="content">
-      <img class="fundo" src="/images/fundo.svg" alt="" />
       <main>
-        <section>
+        <form action="">
           <img src="/images/Logo.svg" alt="logo" />
 
           <h2>Seja Bem vindo</h2>
-          <form action="">
-            <label class="sr-only" for="user">Usuário</label>
-            <input type="text" id="user" placeholder="Usuário" />
-            <br />
-            <label class="sr-only1" for="password">Senha</label>
-            <input type="password" id="password" placeholder="Senha" />
-            <br />
-            <button>
-              <img src="/images/enter-room.svg" alt="Entrar" />
-              Entrar
-            </button>
-          </form>
-        </section>
+          <div class="separator"></div>
+          <label class="sr-only" for="user">Usuário</label>
+          <br />
+          <input type="text" id="user" placeholder="" />
+          <br />
+          <div class="separator"></div>
+          <label class="sr-only1" for="password">Senha</label>
+          <br />
+          <input type="password" id="password" placeholder="" />
+          <br />
+
+          <button>
+            <img src="/images/enter-room.svg" alt="Entrar" />
+            Entrar
+          </button>
+        </form>
       </main>
     </div>
   </body>
