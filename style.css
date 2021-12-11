@@ -13,7 +13,7 @@ body {
   background-size: 100%;
 }
 
-.content {
+.container {
   position: fixed;
   top: 0;
   left: 0;
@@ -54,7 +54,7 @@ button {
   height: 54px;
   left: 285px;
   top: 430px;
-
+  text-align: center;
   background: #3d82db;
   border-radius: 20px;
 }
