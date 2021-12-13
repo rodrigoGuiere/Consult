@@ -8,38 +8,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Testes</title>
   </head>
   <body>
-    
+    <div id="home" class="content">
       <main>
-        <div id="home" class="container"></div>
-        <form action="">
-          <img src="/images/Logo.svg" alt="logo" />
+        <div class="container">
+          <form action="">
+            <img src="/images/Logo.svg" alt="logo" />
 
-          <h2>Seja Bem vindo</h2>
-          <div class="separator"></div>
-          <label class="sr-only" for="user">Usuário</label>
-          <br />
-          <input type="text" id="user" placeholder="" />
-          <br />
-          <div class="separator"></div>
-          <label class="sr-only1" for="password">Senha</label>
-          <br />
-          <input type="password" id="password" placeholder="" />
-          <br />
+            <h2>Seja Bem vindo</h2>
+            <div class="separator"></div>
+            <label class="label" for="user">Usuário</label>
+            <br />
+            <input type="text" id="user" placeholder="" />
+            <br />
+            <div class="separator"></div>
+            <label class="label" for="password">Senha</label>
+            <br />
+            <input type="password" id="password" placeholder="" />
+            <br />
 
-          <button>
-            <img src="/images/enter-room.svg" alt="Entrar" />
-            Entrar
-          </button>
-        </form>
-      </div>
+            <button>Entrar</button>
+          </form>
+        </div>
       </main>
-    
+    </div>
   </body>
 </html>
