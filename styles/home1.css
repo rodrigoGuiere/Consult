@@ -1,0 +1,14 @@
+.menu {
+  position: absolute;
+  width: 125px;
+  height: 676px;
+  left: 31px;
+  top: 22px;
+
+  background: #3d82db;
+  border-radius: 30px;
+}
+
+ul {
+  color: #3d82db;
+}
